@@ -1,14 +1,14 @@
 #!/bin/bash
 # claude-setup.sh
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/enviees/claude-code-config/refs/heads/master/architecture-guide/claude-setup.sh | bash -s -- 
+#   curl -fsSL https://raw.githubusercontent.com/enviees/claude-code-config/refs/heads/master/architecture-guide/claude-setup.sh?token=GHSAT0AAAAAADZFEHEIZTPDF3V3QDX5DSAO2PYIF3A| bash -s -- 
 
 set -e
 
 GREEN='\033[0;32m'; CYAN='\033[0;36m'; NC='\033[0m'
 
 GITHUB_RAW="https://raw.githubusercontent.com/enviees/claude-code-config/master"
-GUIDE_FILENAME="claude-code-architecture-guide.md"
+GUIDE_FILENAME="claude-code-architecture-guide.md?token=GHSAT0AAAAAADZFEHEIZTPDF3V3QDX5DSAO2PYIF3A"
 
 STACK="[Edit — your stack]"
 GOAL="[Edit — your project goal]"
